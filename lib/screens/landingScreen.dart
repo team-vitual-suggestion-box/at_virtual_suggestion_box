@@ -24,26 +24,18 @@ class  _LandingPageState extends State<LandingPage> {
         ),
       ),
       body: Column(
-        
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
+            
             Card(
-           color: Colors.white,
-           
+           color: Color.fromRGBO(234, 228, 184, 1),
            child: Column(
              children: <Widget>[
                Container(
-              margin: EdgeInsets.all(0.0),
+              margin: EdgeInsets.all(30.0),
               child:  Image.asset('images/sugg.png')   
             ),
-            RaisedButton(
-              child: Text('get start'),
-              onPressed: null,
-              shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: BorderSide(color: Colors.deepOrange),
-              ),
-              color: Colors.deepOrange,
-            )
+            ElevatedButton(onPressed: (){}, child: Text('get started'))
              ],
            ),
             ),  
