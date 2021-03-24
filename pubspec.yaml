@@ -1,9 +1,7 @@
 name: at_virtual_suggestion_box
 description: A team  project for @company credentials
 
-# The following line prevents the package from being accidentally published to
-# pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none' 
 
 
 version: 1.0.0+1
@@ -15,9 +13,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  at_demo_data: ^0.0.3+1
-  atsign_authentication_helper: ^0.0.2
   modal_progress_hud: any
+  at_demo_data: ^0.0.3+1 
   at_server_status: ^0.1.0+1
   at_chat_flutter: ^0.0.3
 
@@ -26,21 +23,18 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+
   uses-material-design: true
 
   #To add assets to your application, add an assets section, like this:
   assets:
     - images/sugg.png
-    
+    - images/team.png
+    - images/atsign.png
+    - images/Rose-petals.png
+    - images/Confetti-Doodles.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
